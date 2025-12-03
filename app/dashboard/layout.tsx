@@ -17,6 +17,7 @@ import {
   FiMessageSquare,
   FiFileText,
   FiMail,
+  FiBarChart2,
 } from "react-icons/fi";
 
 export default function DashboardLayout({
@@ -29,6 +30,7 @@ export default function DashboardLayout({
 
   const menuItems = [
     { name: "Dashboard", href: "/dashboard", icon: FiHome },
+    { name: "Stats", href: "/dashboard/stats", icon: FiBarChart2 },
     { name: "Founder", href: "/dashboard/founder", icon: FiUser },
     { name: "About Us", href: "/dashboard/about", icon: FiInfo },
     { name: "Services", href: "/dashboard/services", icon: FiBriefcase },
